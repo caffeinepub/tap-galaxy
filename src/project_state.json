@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Android game project with Google AdSense monetization",
+  "architectural_notes": [
+    "Android platform targeting",
+    "Google AdSense SDK integration required"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-simple-engaging-mobile-friendly-game-mechanic-that-works-in-a-web-browser-e-g-tap-to-score-endless-runner-or-puzzle-game-optimized-for-touch-interactions",
+      "title": "Create a simple, engaging mobile-friendly game mechanic that works in a web browser (e.g., tap-to-score, endless runner, or puzzle game) optimized for touch interactions",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-game-state-persistence-using-the-backend-to-save-high-scores-and-player-progress",
+      "title": "Implement game state persistence using the backend to save high scores and player progress",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-placeholder-sections-in-the-ui-where-ad-units-would-typically-be-displayed-e-g-banner-at-top-bottom-interstitial-after-game-over-with-clear-labels-indicating-ad-placement-zone",
+      "title": "Add placeholder sections in the UI where ad units would typically be displayed (e.g., banner at top/bottom, interstitial after game over) with clear labels indicating 'Ad Placement Zone'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-vibrant-playful-mobile-game-interface-with-bold-colors-smooth-animations-and-an-energetic-visual-style-that-appeals-to-casual-mobile-gamers",
+      "title": "Design a vibrant, playful mobile game interface with bold colors, smooth animations, and an energetic visual style that appeals to casual mobile gamers",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-translate-all-user-facing-text-in-the-game-interface-to-spanish-including-game-title-button-labels-start-game-play-again-score-displays-timer-label-high-score-text-game-over-messages-and-any-other-visible-text-elements",
+      "title": "Translate all user-facing text in the game interface to Spanish, including: game title, button labels ('Start Game', 'Play Again'), score displays, timer label, high score text, game over messages, and any other visible text elements",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-html-page-title-and-meta-tags-to-spanish",
+      "title": "Update the HTML page title and meta tags to Spanish",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create Android game",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Integrate Google AdSense monetization",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Localize game to Spanish language",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Tap Galaxy",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

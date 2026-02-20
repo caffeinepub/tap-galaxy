@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the game layout with ThemeProvider and Toaster for notifications.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching and updating high scores from the backend canister.",
+  "frontend/src/hooks/useGameState.ts": "Custom hook managing game state including score, timer, game status, and game lifecycle functions.",
+  "frontend/src/components/GameLayout.tsx": "Main layout component with animated star background, ad placeholders at top/bottom, game content area, and footer with attribution.",
+  "frontend/src/components/TapGame.tsx": "Core game component handling tap interactions, combo system, score tracking, and game state transitions with complete Spanish localization including title \"GALAXIA DEL TOQUE\".",
+  "frontend/src/components/GameControls.tsx": "Reusable button component for starting and restarting the game with Spanish text (\"Comenzar Juego\" and \"Jugar de Nuevo\").",
+  "frontend/src/components/GameOverScreen.tsx": "Game over screen displaying final score, high score comparison, interstitial ad placeholder, and play again button with all text translated to Spanish.",
+  "frontend/src/components/HighScoreDisplay.tsx": "Component displaying the player's current high score with loading state and trophy icon, with Spanish labels (\"Puntuación Máxima\").",
+  "frontend/src/components/AdPlaceholder.tsx": "Reusable ad placeholder component for banner and interstitial ad zones with clear labeling.",
+  "frontend/src/components/GameIcon.tsx": "Simple component displaying the generated game icon image.",
+  "frontend/src/index.css": "Global styles with OKLCH color system, game-specific color tokens, and custom component classes using direct CSS instead of @apply to avoid Tailwind opacity modifier issues.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with game-specific colors that support alpha values, custom animations, and design tokens for the space-themed game interface.",
+  "frontend/index.html": "HTML entry point with Spanish language attribute, translated page title \"Galaxia del Toque\", and Spanish meta description."
+}

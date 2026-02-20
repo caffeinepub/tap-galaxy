@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko backend actor that stores and manages high scores per user (Principal), allowing users to set and retrieve their high scores with timestamp tracking.",
+  "feature_evidence.json": "Feature evidence report documenting Spanish translation implementation across game UI components and HTML metadata with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing a Spanish-localized tap game with React components, hooks, styling, and game state management.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables for light/dark themes using OKLCH color system and game-specific design tokens.",
+  "frontend/index.html": "HTML entry point with Spanish language attribute, translated title \"Galaxia del Toque\", and Spanish meta description for the game.",
+  "frontend/src/App.tsx": "Root React component wrapping GameLayout with ThemeProvider (dark mode default) and Toaster for notifications.",
+  "frontend/src/components/AdPlaceholder.tsx": "Component rendering placeholder zones for banner and interstitial ads with visual indicators for ad placement positions.",
+  "frontend/src/components/GameControls.tsx": "Button component for game controls displaying Spanish text \"Comenzar Juego\" and \"Jugar de Nuevo\" based on game status.",
+  "frontend/src/components/GameIcon.tsx": "Simple component displaying the game icon image from generated assets.",
+  "frontend/src/components/GameLayout.tsx": "Main layout with animated star background, top/bottom ad banners, centered game content, and footer with caffeine.ai attribution.",
+  "frontend/src/components/GameOverScreen.tsx": "Game over screen with Spanish text showing final score, high score comparison, interstitial ad placeholder, and play again button with conditional messaging based on performance.",
+  "frontend/src/components/HighScoreDisplay.tsx": "Component displaying current high score with trophy icon and Spanish label \"Puntuación Máxima\" with loading state support.",
+  "frontend/src/components/TapGame.tsx": "Core game component with Spanish title \"GALAXIA DEL TOQUE\" managing tap interactions, combo system, score tracking, animations, and game lifecycle with backend integration.",
+  "frontend/src/hooks/useActor.ts": "React Query hook managing backend actor creation with Internet Identity authentication, handling anonymous and authenticated states with automatic query invalidation on identity changes.",
+  "frontend/src/hooks/useGameState.ts": "Custom React hook managing game state including score, timer (30s countdown), and game status (idle/playing/gameOver) with functions to start, end, increment score, and reset the game.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context and hook for Internet Identity authentication on ICP, providing login/logout functionality, identity management, and authentication status tracking with delegation validation.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching and mutating high score data from the backend actor, with automatic cache invalidation on updates.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a dark space-themed color palette and game-specific component classes (game-card, game-button) with gradients and effects.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient and InternetIdentityProvider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom color variables (using oklch color space), game-specific colors, border radius variables, and typography/animation plugins.",
+  "project_state.json": "Project metadata tracking implemented features (mobile game mechanic, state persistence, ad placeholders, Spanish localization) and pending Android/AdSense integration requests for the 'Tap Galaxy' game."
+}

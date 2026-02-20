@@ -1,0 +1,59 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T20:24:55.484Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-5",
+        "summary": "Translate all user-facing text in the game interface to Spanish, including: game title, button labels ('Start Game', 'Play Again'), score displays, timer label, high score text, game over messages, and any other visible text elements",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/GameControls.tsx",
+          "frontend/src/components/GameOverScreen.tsx",
+          "frontend/src/components/HighScoreDisplay.tsx",
+          "frontend/src/components/TapGame.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/GameControls.tsx",
+          "frontend/src/components/GameOverScreen.tsx",
+          "frontend/src/components/HighScoreDisplay.tsx",
+          "frontend/src/components/TapGame.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Update the HTML page title and meta tags to Spanish",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/GameControls.tsx",
+    "frontend/src/components/GameOverScreen.tsx",
+    "frontend/src/components/HighScoreDisplay.tsx",
+    "frontend/src/components/TapGame.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
